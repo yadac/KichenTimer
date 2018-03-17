@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KichenTimer", "KichenTimer\KichenTimer.csproj", "{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Release|iPhone.Build.0 = Release|iPhone
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A0A2DA79-EAB0-4DE1-9588-DA725DC29CFA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25A08FEE-0591-477D-B588-0C2E7E0D10D6}
+	EndGlobalSection
+EndGlobal

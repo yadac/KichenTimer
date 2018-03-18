@@ -58,7 +58,8 @@ namespace KichenTimer
                     StartButton.SetTitle("Start", UIControlState.Normal);
 
                     // alert
-
+                    var sound = new AudioToolbox.SystemSound(1005); // 1005 is alert
+                    sound.PlayAlertSound();
                 }
 
                 // update remain time

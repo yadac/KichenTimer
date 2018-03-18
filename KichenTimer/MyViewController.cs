@@ -49,15 +49,20 @@ namespace KichenTimer
             InvokeOnMainThread(() =>
             {
                 _remain = _remain.Add(TimeSpan.FromMilliseconds(-100));
-                ShowRemain();
 
                 // if not remain (= zero seconds), change button status and alert
-                if (!(_remain.TotalSeconds <= 0)) return;
-                _start = !_start;
-                _remain = new TimeSpan(0);
-                StartButton.SetTitle("Start", UIControlState.Normal);
+                if (_remain.TotalSeconds <= 0)
+                {
+                    _start = !_start;
+                    _remain = new TimeSpan(0);
+                    StartButton.SetTitle("Start", UIControlState.Normal);
 
-                // alert
+                    // alert
+
+                }
+
+                // update remain time
+                ShowRemain();
             });
 
         }
